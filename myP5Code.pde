@@ -29,13 +29,25 @@ void draw(){
   rect(191, 20, 95, 50); //Hair
  
   fill (255,255,255)
+  
   ellipse (215,100,25,10); //left eye
   ellipse (265,100,25,10); //right eye
- line (195,90,215,80); //left eyebrow
+ 
+ //left eyebrow
+strokeWeight(5);
+stroke(0,0,0)
+ line (195,90,215,80); 
+ strokeWeight(5);
+ stroke(0,0,0)
  line (215,80, 235, 90);
+ strokeWeight(5);
+ stroke(0,0,0)
  line (245,95, 264, 85); //right eyebrow
- line (264,85,285,95)
+strokeWeight(5);
+stroke(0,0,0)
+line (264,85,285,95)
   
+  noStroke();
   fill (0,0,0)
   ellipse (212,100,15,10); //left pupil
   ellipse (265,100,15, 10); //right pupil
@@ -47,8 +59,8 @@ void draw(){
   line (240,115,230,134);
   line (240,115,250,134);
   fill (80,80,80);
-  arc(235, 135, 8, 10, radians(180), radians(360));
-  arc (243, 135, 10, 10, radians(180), radians(360));
+  arc(230, 135, 20, 20, radians(180), radians(360));
+  arc (244, 135, 20, 20, radians(180), radians(360));
   
   textSize(55);
   fill(0,0,0);
@@ -63,7 +75,7 @@ void draw(){
   
   // ears
   fill(156, 91, 22);
-  arc (180,125,30,40, radians(80), radians(270)); //left ear
+  arc (180,125,30,40, radians(0), radians(280)); //left ear
   arc (300,126,30,40, radians(270), radians(460))
 
 }
