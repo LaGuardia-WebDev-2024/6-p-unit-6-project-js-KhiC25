@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/11/chill-guy-background.jpg");
+  background-image: url("https://i.ytimg.com/vi/VtFih3RqgiI/maxresdefault.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color:gray;
   justify-content: space-around;
   align-items: flex-start;
 }
@@ -34,7 +34,8 @@ html{
 }
 
 h2{
-  color: black;
+  color: white;
+  text-size: "100"
 }
 
 #start{
